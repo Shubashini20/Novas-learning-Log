@@ -829,19 +829,7 @@ Moore's Law: Transistor count doubles ~every 2 years
 
 ---
 
-## 💡 Quick Reference Table
 
-| Component | Speed | Storage | Type | Purpose |
-|-----------|-------|---------|------|---------|
-| Registers | Fastest | ~1 KB | Volatile | Immediate data for CPU |
-| L1 Cache | Very Fast | ~32 KB | Volatile | Frequently used instructions |
-| L2 Cache | Fast | ~256 KB | Volatile | Recently used data |
-| L3 Cache | Fast | ~8-20 MB | Volatile | Shared across cores |
-| RAM | Medium | 8-32 GB | Volatile | Active programs & data |
-| SSD | Slower | 256GB-2TB | Non-Volatile | Quick storage & boot |
-| HDD | Slowest | 1-10 TB | Non-Volatile | Bulk storage & backups |
-
----
 
 **Happy Learning! 🚀** 
 
