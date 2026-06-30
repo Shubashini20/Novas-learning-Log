@@ -2,7 +2,7 @@
 
 ## Hey Guys! 👋
 
-When thinking about computers, most people only know about external hardware components like monitors, mouse, and CPUs. But you're in for a surprise! There's **a lot more happening behind the scenes** 🌟
+When thinking about computers, most people only know about external hardware components like monitors, mouse, and CPUs. But you're in for a surprise! There's **a lot more happening behind the scenes**!
 
 ---
 
@@ -62,7 +62,7 @@ The **motherboard** is the nervous system of your computer - a printed circuit b
 │   │ Slots    │  │ Controller │  │ Card     │    │
 │   └──────────┘  └────────────┘  └──────────┘    │
 │                                                      │
-│   ┌──────────────────���──────────────────────────┐  │
+│   ┌──────────────────────────────────────────────┐  │
 │   │  Southbridge / I/O Controller              │  │
 │   │  (USB, Audio, SATA, etc.)                  │  │
 │   └─────────────────────────────────────────────┘  │
@@ -190,7 +190,7 @@ Modern CPUs have **multiple cores** - think of them as multiple chefs in one kit
 ├──────────────────────────────────────────────────────┤
 │                                                       │
 │  Core 1          Core 2          Core 3    Core 4   │
-│ ┌───────┐       ┌───────┐       ┌──────┐ ┌──────┐  │
+│ ┌───────┐       ┌───────┐       ┌─────��┐ ┌──────┐  │
 │ │ ALU   │       │ ALU   │       │ ALU  │ │ ALU  │  │
 │ │ CU    │       │ CU    │       │ CU   │ │ CU   │  │
 │ │ Regs  │       │ Regs  │       │ Regs │ │ Regs │  │
@@ -403,9 +403,9 @@ Real-world Impact:
 │      └─────────────────────────────────┘   │
 │                                              │
 │ 📚 For detailed HDD explanation:             │
-│ https://youtu.be/wtdnatmVdIg                │
+│ [HDD Deep Dive](https://youtu.be/wtdnatmVdIg)  │
 │ 💿 For SSD deep dive:                       │
-│ https://youtu.be/5Mh3o886qpg                │
+│ [SSD Explained](https://youtu.be/5Mh3o886qpg)  │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
@@ -424,7 +424,7 @@ Real-world Impact:
 │  RAM, Cache, Registers                              │
 │  ✓ Super fast                                       │
 │  ✓ Temporary storage                                │
-���  ✗ Loses data without power                         │
+│  ✗ Loses data without power                         │
 │                                                      │
 │  Example: Open Firefox → Data in RAM → Turn off PC  │
 │           → All Firefox data gone!                   │
@@ -777,12 +777,12 @@ Moore's Law: Transistor count doubles ~every 2 years
 ## 📚 Additional Resources
 
 ### Video Deep Dives
-- **HDD Explained:** https://www.youtube.com/watch?v=wtdnatmVdIg
-- **SSD Explained:** https://www.youtube.com/watch?v=5Mh3o886qpg
-- **CPU Architecture:** https://www.youtube.com/results?search_query=cpu+architecture
-- **Boot Process:** https://www.youtube.com/results?search_query=computer+boot+process
-- **How Computers Work (TED-Ed):** https://www.youtube.com/results?search_query=how+computers+work
-- **Binary and Data:** https://www.youtube.com/results?search_query=binary+data+computers
+- [HDD Explained](https://www.youtube.com/watch?v=wtdnatmVdIg)
+- [SSD Explained](https://www.youtube.com/watch?v=5Mh3o886qpg)
+- [CPU Architecture](https://www.youtube.com/results?search_query=cpu+architecture)
+- [Boot Process](https://www.youtube.com/results?search_query=computer+boot+process)
+- [How Computers Work (TED-Ed)](https://www.youtube.com/results?search_query=how+computers+work)
+- [Binary and Data](https://www.youtube.com/results?search_query=binary+data+computers)
 
 ### Recommended Books
 - **How Computers Work (Inside Out)** by Ron White
