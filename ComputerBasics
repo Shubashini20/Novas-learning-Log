@@ -2,7 +2,7 @@
 
 ## Hey Guys! 👋
 
-When thinking about computers, most people only know about external hardware components like monitors, mouse, and CPUs. But you're in for a surprise! There's **a lot more happening behind the scenes (BTS)** that we'll explore in detail.
+When thinking about computers, most people only know about external hardware components like monitors, mouse, and CPUs. But you're in for a surprise! There's **a lot more happening behind the scenes** 🌟
 
 ---
 
@@ -62,7 +62,7 @@ The **motherboard** is the nervous system of your computer - a printed circuit b
 │   │ Slots    │  │ Controller │  │ Card     │    │
 │   └──────────┘  └────────────┘  └──────────┘    │
 │                                                      │
-│   ┌─────────────────────────────────────────────┐  │
+│   ┌──────────────────���──────────────────────────┐  │
 │   │  Southbridge / I/O Controller              │  │
 │   │  (USB, Audio, SATA, etc.)                  │  │
 │   └─────────────────────────────────────────────┘  │
@@ -424,7 +424,7 @@ Real-world Impact:
 │  RAM, Cache, Registers                              │
 │  ✓ Super fast                                       │
 │  ✓ Temporary storage                                │
-│  ✗ Loses data without power                         │
+���  ✗ Loses data without power                         │
 │                                                      │
 │  Example: Open Firefox → Data in RAM → Turn off PC  │
 │           → All Firefox data gone!                   │
@@ -647,9 +647,9 @@ POWER ON
 ### How Your Computer Works - Full Picture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────────┐
 │                      YOUR COMPUTER                              │
-├─────────────────────────────────────────────────────────────────┤
+├────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │  STORAGE LAYER (Permanent)                                      │
 │  ┌───────────────────────────────────────────────────────────┐ │
@@ -678,7 +678,7 @@ POWER ON
 │  │ GPU → Display → Visual Result (Monitor)                 │ │
 │  └───────────────────────────────────────────────────────────┘ │
 │                                                                  │
-└─────────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -777,15 +777,30 @@ Moore's Law: Transistor count doubles ~every 2 years
 ## 📚 Additional Resources
 
 ### Video Deep Dives
-- **HDD Explained:** https://youtu.be/wtdnatmVdIg
-- **SSD Explained:** https://youtu.be/5Mh3o886qpg
+- **HDD Explained:** https://www.youtube.com/watch?v=wtdnatmVdIg
+- **SSD Explained:** https://www.youtube.com/watch?v=5Mh3o886qpg
 - **CPU Architecture:** https://www.youtube.com/results?search_query=cpu+architecture
 - **Boot Process:** https://www.youtube.com/results?search_query=computer+boot+process
+- **How Computers Work (TED-Ed):** https://www.youtube.com/results?search_query=how+computers+work
+- **Binary and Data:** https://www.youtube.com/results?search_query=binary+data+computers
 
-### Recommended Reading
-- How Computers Work (Inside Out) - Ron White
-- The Innovators - Walter Isaacson
-- Code: The Hidden Language of Computer Hardware and Software - Charles Petzold
+### Recommended Books
+- **How Computers Work (Inside Out)** by Ron White
+- **The Innovators** by Walter Isaacson
+- **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold
+- **Computer Organization and Design** by David A. Patterson & John L. Hennessy
+
+### Online Learning Platforms
+- [Khan Academy - Computer Science](https://www.khanacademy.org/computing/computer-science)
+- [Coursera - Computer Science Fundamentals](https://www.coursera.org/)
+- [edX - Introduction to Computer Science](https://www.edx.org/)
+- [MIT OpenCourseWare - Computer Science](https://ocw.mit.edu/)
+
+### Documentation & References
+- [Wikipedia - Computer Hardware](https://en.wikipedia.org/wiki/Computer_hardware)
+- [CPU-Z Tool](https://www.cpuid.com/cpuz.html) - For Windows users
+- [Geekbench](https://www.geekbench.com/) - CPU/GPU Benchmarking
+- [Tom's Hardware](https://www.tomshardware.com/) - Hardware Reviews & Guides
 
 ---
 
@@ -797,19 +812,39 @@ Moore's Law: Transistor count doubles ~every 2 years
    - Linux: Open terminal and type `neofetch`
 
 2. **Understand your CPU in detail:**
-   - Use CPU-Z (Windows) or Geekbench to benchmark
+   - Use [CPU-Z](https://www.cpuid.com/cpuz.html) (Windows) or Geekbench to benchmark
+   - Check specifications on manufacturer websites (Intel, AMD, Apple)
 
 3. **Monitor real-time usage:**
    - Task Manager (Windows) / Activity Monitor (Mac)
    - Observe RAM usage, CPU load, and disk I/O
+   - Try tools like [HWiNFO](https://www.hwinfo.com/) for detailed monitoring
 
 4. **Deep dive into:**
    - GPU (Graphics Processing Unit)
    - Networking & Internet protocols
    - Advanced firmware topics
+   - Overclocking and optimization
+   - System cooling and thermal management
+
+---
+
+## 💡 Quick Reference Table
+
+| Component | Speed | Storage | Type | Purpose |
+|-----------|-------|---------|------|---------|
+| Registers | Fastest | ~1 KB | Volatile | Immediate data for CPU |
+| L1 Cache | Very Fast | ~32 KB | Volatile | Frequently used instructions |
+| L2 Cache | Fast | ~256 KB | Volatile | Recently used data |
+| L3 Cache | Fast | ~8-20 MB | Volatile | Shared across cores |
+| RAM | Medium | 8-32 GB | Volatile | Active programs & data |
+| SSD | Slower | 256GB-2TB | Non-Volatile | Quick storage & boot |
+| HDD | Slowest | 1-10 TB | Non-Volatile | Bulk storage & backups |
 
 ---
 
 **Happy Learning! 🚀** 
 
-Keep exploring, stay curious, and never stop learning about how these incredible machines work!
+Keep exploring, stay curious, and never stop learning about how these incredible machines work! Feel free to bookmark this guide and revisit whenever you need clarification.
+
+**Questions? Suggestions? Improvements?** - Don't hesitate to reach out! Learning is a two-way street. 💬
